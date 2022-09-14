@@ -10,7 +10,7 @@ const ProjectSchema = new Schema({
         type:String,
         enum: ['In Progress', 'Completed','Not Started']
     },
-    ClientId:{
+    clientId:{
         type:Schema.Types.ObjectId,
         ref:'Client'
     },
