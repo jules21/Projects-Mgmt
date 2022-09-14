@@ -1,6 +1,6 @@
 const express = require('express')
 require('dotenv').config()
-const port = process.env.PORT || 8000;
+const port =process.env.PORT || 8000;
 const {graphqlHTTP} = require('express-graphql')
 const schema = require('./server/schema/schema')
 const bodyParser = require('body-parser')
